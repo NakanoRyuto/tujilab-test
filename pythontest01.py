@@ -20,14 +20,14 @@ print("-----------------------------------------------")
 
 print("(3)")
 
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #totalはforの中で使う変数なので指定しておく。
 total = 0
 for n  in data:
     total += n
 ave = total // len(data)
 
-msg = "合計 = " + str(total) + " 平均 = " + str(ave)
+msg = "合計 = " + str(total) + " 平均 = " + str(ave) + " 四捨五入された？"
 print(msg)
 print("-----------------------------------------------")
     
